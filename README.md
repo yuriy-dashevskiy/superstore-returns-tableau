@@ -1,8 +1,8 @@
-## SuperStore Returns Analytics
+# SuperStore Returns Analytics
 
-# Overview
-This analytical project provides a dynamically interactive tableau dashboard, saved publically on tableau, for analyzing return patterns for the Superclient client.
-Goal was to determine any trends surrounding the alarming rate of return of products and come up with an executive decision based on the data-driven analysis.
+## Overview
+* This analytical project provides a dynamically interactive tableau dashboard, saved publically on tableau, for analyzing return patterns for the Superclient client.
+* Goal was to determine any trends surrounding the alarming rate of return of products and come up with an executive decision based on the data-driven analysis.
 ---
 📊📉[Public Tableau Dashboard](https://public.tableau.com/app/profile/yuriy.dashevskiy/viz/Yuriy_Dashevskiy_Superstore_Project_Tripleten_Sprint_5/Superstore_Dashboard)
 ---
@@ -32,5 +32,9 @@ Superstore provided Orders and Returns information for helping create this analy
 * Customer Breakdown - Return Rate by Customer
 * Time Series Trends - Return Rate Over Time (Periodically)
 ---
-Sample Dashboard Screenshot <br/> <br/>
+## Sample Dashboard Screenshot <br/> <br/>
 ![image](https://github.com/user-attachments/assets/24f0c3a1-e225-43c9-a98a-272e1fbc6d99)
+
+## Future Improvements
+* Create different visualizations for analyzing the given data in another perspective
+* Connect to a locally installed SQL DB to have the visuals be dynamically reflect what is stored in the database
