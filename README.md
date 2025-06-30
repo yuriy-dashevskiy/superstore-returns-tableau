@@ -6,27 +6,27 @@
 ---
 📊📉[Public Tableau Dashboard](https://public.tableau.com/app/profile/yuriy.dashevskiy/viz/Yuriy_Dashevskiy_Superstore_Project_Tripleten_Sprint_5/Superstore_Dashboard)
 ---
-🎯 Objectives <br/>
+## 🎯 Objectives <br/>
 * Determine the categories/regions experiencing high return rate
 * Analyze the trends based time of the year
 * Present visuals on return rate vs revenue earned
 * Come up with insights based on analysis to present to stakeholders
 ---
-📊 Dataset <br/>
+## 📊 Dataset <br/>
 Superstore provided Orders and Returns information for helping create this analysis
 * Left joined two tables <b>Orders</b> and <b>Returns</b> to create a complete list of all orders regardless if they had a return or not
 ---
-📈 Key Metrics <br/>
+## 📈 Key Metrics <br/>
 * Avg Returns = ROUND(AVG([Returns]) * 100,2)
 * Returns = IF ISNULL([Returned]) THEN 0 ELSE 1 END
 * Total Returns = SUM(Returns)
 * Total Sales = SUM(Sales)
 ---
-🛠️ Tools Used <br/>
+## 🛠️ Tools Used <br/>
 * Tableau - Creating the visuals utilizing the Superstore excel file
 * Excel/Google Sheets - Data cleaning
 ---
-📌 Visual Features <br/>
+## 📌 Visual Features <br/>
 * Dual-Axis Chart - Return Rate by Category/Region
 * Map Visualization - Return Rates by USA States
 * Customer Breakdown - Return Rate by Customer
